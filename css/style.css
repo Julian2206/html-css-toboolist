@@ -50,7 +50,7 @@
 .header-input {
   width: 100%;
   height: auto;
-  margin-left: 50px;
+  margin-left: 8%;
   margin-bottom: 8px;
   display: inline;
   font-size: 30px;
@@ -205,4 +205,9 @@
   display: inline-block;
   border: none;
   border-radius: 10px;
+}
+
+/* article-text */
+.text {
+  margin: 20px 10px 20px 10px;
 }
