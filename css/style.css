@@ -59,7 +59,7 @@
 /* inner-header-button */
 
 .input-task {
-  /* border-color: lightblue; */
+  border-color: aqua;
   background-color: lightblue;
   font-size: 18px;
   color: white;
@@ -68,8 +68,8 @@
   text-decoration: none;
   display: inline-block;
   /* margin: 4px 2px; */
-  margin-top: 10px;
-  border-radius: 4px;
+  margin-top: 16px;
+  border-radius: 5px;
 }
 .input-section {
   border: 1px 1px 1px 1px solid grey;
@@ -92,11 +92,22 @@
 
 /* article-center */
 .middle-section {
-  padding: 30px;
+  padding: 50px;
 }
 
-.task,
-.today,
+.pointer {
+  font-size: 14px;
+  margin-right: 8px;
+}
+
+.task {
+  padding: 20px;
+  font-size: 18px;
+}
+.today {
+  padding: 20px;
+  font-size: 18px;
+}
 .upcoming {
   padding: 20px;
   font-size: 18px;
@@ -106,13 +117,14 @@
   color: green;
   border: 2px solid green;
   border-radius: 20px;
-  padding: 2px;
+  padding: 4px;
 }
 .cross {
   color: red;
   border: 2px solid red;
   border-radius: 20px;
-  padding: 2px;
+  padding: 4px;
+  margin-right: 5px;
 }
 
 /* right-side-buttons */
